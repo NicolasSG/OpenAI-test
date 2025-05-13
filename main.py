@@ -19,7 +19,7 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
         temperature=0,  # este é o grau de aleatoriedade da saída do modelo
     )
     # retornar o conteúdo da resposta
-    return completion.choices[0].message["content"]
+    return completion.choices[0].message["content"] 
 
 if __name__ == '__main__':
 
